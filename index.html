@@ -3,13 +3,25 @@
   <head>
     <meta charset="utf-8">
     <title>ATJM</title>
+    <link rel="stylesheet" href="estilos.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
-    <h1>Welcome to the inyection tonight!</h1>
+    <h1 id="titulo" class="titulo">Welcome to the inyection tonight!</h1>
     <h1><strong>ATJM WEB PAGE</strong></h1>
 
-    <section id="noticias">
-      <p id="titulo">Hoy es Domingo</p><br>
+    <nav id="indice">
+      <p class="titulo">Indice</p>
+      <ul>
+        <li><a href="#titulo">Titulo</a></li>
+        <li><a href="#noticias">Noticias</a></li>
+        <li><a href="#indices">Indices</a></li>
+        <li><a href="#navigation-links">Navigation links</a></li>
+        <li><a href="#multimedia">Multimedia</a></li>
+      </ul>
+    </nav>
+    <section id="noticias" >
+      <p class="titulo">Noticias</p>
+      <p>Hoy es Domingo</p>
       <p id="contenido">
         Tengo que decirte que siempre <em><big><mark>Te quiero mucho</mark></big></em>
       </p>
@@ -18,7 +30,7 @@
       </p>
     </section>
 
-    <div class="indices">
+    <div id="indices">
       <p>
         Juan Miguel<sup>Tere</sup>
         Tere <sub>Juan Miguel</sub>
@@ -26,18 +38,27 @@
     </div>
 
     <nav id="navigation-links">
-      <p>Links a páginas cool</p>
+      <p class="titulo">Links a páginas cool</p>
       <ul>
-        <li><a href="http://www.google.com">google</a></li>
-        <li><a href="http://www.youtube.com">youtube</a></li>
-        <li><a href="http://www.gmail.com">gmail</a></li>
-        <li><a href="http://www.wikipedia.com">wiki</a></li>
-        <li><a href="http://www.w3schools.com">Visit W3Schools.com!</a></li>
+        <li>
+          <a href="http://www.google.com">
+            <img src="http://mundoredtotal.com.ve/blog/wp-content/uploads/2015/03/google_logo.png" width="
+            100"></a>
+        </li>
+        <li><a href="http://www.youtube.com">
+          <img src="https://www.youtube.com/yt/brand/media/image/YouTube-logo-full_color.png" width="100" />
+        </a></li>
+        <li><a href="http://www.gmail.com">
+          <img src="http://buxvertise.com/images/gmail.png" width="100">
+        </a></li>
+        <li><a href="http://www.wikipedia.com">
+          <img src="http://a54.idata.over-blog.com/0/43/50/45/5780-etoilefilante-wikipedia.png" width="60"/>
+        </a></li>
       </ul>
     </nav>
 
     <section id="multimedia">
-      <strong><p>Sección de imágenes, audio y video</p></strong>
+      <strong><p class="titulo">Sección de imágenes, audio y video</p></strong>
 
       <p>Imagenes</p>
       <img src="amor.jpg" alt="AMOR" width="500"/>
@@ -49,5 +70,8 @@
       <video src="canto.mp4" width="320" height="240" controls></video>
     </section>
 
+    <footer>
+      <span>ATJM productions</span>
+    </footer>
   </body>
 </html>

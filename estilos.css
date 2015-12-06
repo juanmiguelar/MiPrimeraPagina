@@ -1,0 +1,14 @@
+body{
+  font-family: fantasy;
+  margin-left: 35%;
+  background: #92a3a8;
+}
+
+#pd{
+  font-size: 30px;
+}
+
+.titulo{
+  margin-left: 10%;
+  font-size: 15;
+}
